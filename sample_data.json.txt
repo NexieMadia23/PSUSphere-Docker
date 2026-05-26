@@ -1,0 +1,77 @@
+[
+  {
+    "model": "studentorg.college",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-05-26T12:05:40.652Z",
+      "updated_at": "2026-05-26T12:05:40.652Z",
+      "college_name": "College of Sciences",
+      "description": "CS Department"
+    }
+  },
+  {
+    "model": "studentorg.college",
+    "pk": 2,
+    "fields": {
+      "created_at": "2026-05-26T12:05:46.354Z",
+      "updated_at": "2026-05-26T12:05:46.354Z",
+      "college_name": "College of Engineering Architecture and Technology",
+      "description": "CEAT Department"
+    }
+  },
+  {
+    "model": "studentorg.program",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-05-26T12:10:00.000Z",
+      "updated_at": "2026-05-26T12:10:00.000Z",
+      "pname": "Bachelor of Science in Information Technology",
+      "college": 1
+    }
+  },
+  {
+    "model": "studentorg.program",
+    "pk": 2,
+    "fields": {
+      "created_at": "2026-05-26T12:11:00.000Z",
+      "updated_at": "2026-05-26T12:11:00.000Z",
+      "pname": "Bachelor of Science in Civil Engineering",
+      "college": 2
+    }
+  },
+  {
+    "model": "studentorg.organization",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-05-26T12:12:00.000Z",
+      "updated_at": "2026-05-26T12:12:00.000Z",
+      "name": "Society of Information Technology Students",
+      "description": "SITS Org",
+      "college": 1
+    }
+  },
+  {
+    "model": "studentorg.student",
+    "pk": 1,
+    "fields": {
+      "created_at": "2026-05-26T12:15:00.000Z",
+      "updated_at": "2026-05-26T12:15:00.000Z",
+      "student_id": "2026-10234",
+      "first_name": "Norelyn",
+      "last_name": "Madia",
+      "program": 1
+    }
+  },
+  {
+    "model": "studentorg.student",
+    "pk": 2,
+    "fields": {
+      "created_at": "2026-05-26T12:16:00.000Z",
+      "updated_at": "2026-05-26T12:16:00.000Z",
+      "student_id": "2026-10567",
+      "first_name": "John",
+      "last_name": "Doe",
+      "program": 2
+    }
+  }
+]
